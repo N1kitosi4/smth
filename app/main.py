@@ -5,4 +5,4 @@ app = FastAPI()
 
 @app.get("/")
 def index():
-    return {"data": "index"}
+    return {"data_new": "index_new"}
